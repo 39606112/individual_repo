@@ -1,9 +1,9 @@
 /* ====================== CSS VARIABLES ====================== */
 :root {
   --primary: white;
-  --accent: #0f708d;
-  --accent-secondary: #5caae9;
-  --bg: #3163a3;
+  --accent:#204d81;
+  --accent-secondary: #0f708d;
+  --bg: #494b4d;
   --card-bg: #0f708d;
   --text: #3163a3;
   --light-gray: #204d81;
@@ -38,6 +38,20 @@ body {
   overflow: hidden;
   transition: transform 0.1s ease-out;
 }
+
+  .project-header {
+    font-size: 2em; /* increases the size of all text inside */
+  }
+
+  .project-header h1 {
+    font-size: 2em; /* even bigger for the main heading */
+    color: rgb(255, 249, 249);
+  }
+
+  .project-header h2 {
+    font-size: 2em; /* slightly smaller for the numbers */
+    color:rgb(255, 249, 249);
+  }
 
 .project-header::before {
   content: '';
